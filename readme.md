@@ -6,4 +6,4 @@ Check the `version` file for what version we are tracking.
 
 ## Important notes
 
-As of 7.2-rc3, there is a serious bug in `qcrypto` that _will_ cause a bootloop when it is used (for say, dm-crypt). Blacklist it.
+As of 7.2-rc3, there is a [serious bug](https://lore.kernel.org/all/20260622-qce-fix-self-tests-v4-0-4f82ffa716c6@oss.qualcomm.com/) in `qcrypto` that _will_ cause a bootloop when it is used (for say, dm-crypt). Blacklist it.
