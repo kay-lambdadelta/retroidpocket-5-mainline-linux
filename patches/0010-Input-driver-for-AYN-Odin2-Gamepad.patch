@@ -1,4 +1,4 @@
-From ed48cb9b2c8bdf9b4fcdfacdbe84acba0dde8b61 Mon Sep 17 00:00:00 2001
+From 52104c8d3212f80d8944353c0279b289ed61bd9b Mon Sep 17 00:00:00 2001
 From: Teguh Sobirin <teguh@sobir.in>
 Date: Wed, 20 Nov 2024 23:13:18 +0700
 Subject: [PATCH] Input: driver for AYN Odin2 Gamepad
@@ -359,5 +359,5 @@ index 000000000000..63a32175b441
 +MODULE_AUTHOR("Teguh Sobirin <teguh@sobir.in>");
 +MODULE_ALIAS("platform:" DRIVER_NAME);
 -- 
-2.53.0
+2.55.0
 

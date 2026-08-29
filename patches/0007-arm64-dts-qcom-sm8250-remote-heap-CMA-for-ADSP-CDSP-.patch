@@ -1,4 +1,4 @@
-From cd95aed691568a8397b7a8e3ebaa9c53bab1e897 Mon Sep 17 00:00:00 2001
+From ceceaf864ea14710379a996a74b630b3a3eb02ac Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Dawid=20Wro=CC=81bel?= <me@dawidwrobel.com>
 Date: Sat, 1 Nov 2025 09:41:42 +0100
 Subject: [PATCH] arm64: dts: qcom: sm8250: remote heap CMA for ADSP, CDSP,
@@ -64,5 +64,5 @@ index 7076720413ab..61f487e546d7 100644
  					#size-cells = <0>;
  
 -- 
-2.53.0
+2.55.0
 

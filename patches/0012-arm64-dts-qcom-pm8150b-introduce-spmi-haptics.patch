@@ -1,4 +1,4 @@
-From e656befb6f28ba8bfeb11b918ca0f55b5c22151a Mon Sep 17 00:00:00 2001
+From b6f31a13e86646b8817fa76ef25eebb0d22cc66c Mon Sep 17 00:00:00 2001
 From: Teguh Sobirin <teguh@sobir.in>
 Date: Mon, 25 Nov 2024 02:17:47 +0700
 Subject: [PATCH] arm64: dts: qcom: pm8150b: introduce spmi haptics
@@ -43,5 +43,5 @@ index a1a7035204c3..f153bc972fb2 100644
  	};
  };
 -- 
-2.53.0
+2.55.0
 

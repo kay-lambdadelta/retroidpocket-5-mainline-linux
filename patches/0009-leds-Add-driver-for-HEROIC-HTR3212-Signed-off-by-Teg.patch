@@ -1,4 +1,4 @@
-From 373d2ae72f0d4a399f33ab09fed58fcbcb3e4f5c Mon Sep 17 00:00:00 2001
+From a3a22fc962db64c198f74c9d6dff6a37035758a9 Mon Sep 17 00:00:00 2001
 From: Teguh Sobirin <teguh@sobir.in>
 Date: Thu, 21 Nov 2024 00:16:42 +0700
 Subject: [PATCH] leds: Add driver for HEROIC HTR3212 Signed-off-by: Teguh
@@ -349,5 +349,5 @@ index 000000000000..e9367c4aad04
 +MODULE_DESCRIPTION("HEROIC HTR3212 LED Driver");
 +MODULE_LICENSE("GPL v2");
 -- 
-2.53.0
+2.55.0
 

@@ -1,4 +1,4 @@
-From 5fd6df17716d06ac5f3901b5cc1c0fd6f577a016 Mon Sep 17 00:00:00 2001
+From caa23d2960d702531d1507f37aa12194c77f4971 Mon Sep 17 00:00:00 2001
 From: Casey Connolly <casey.connolly@linaro.org>
 Date: Fri, 20 Jun 2025 14:38:01 +0200
 Subject: [PATCH] power: supply: qcom_fg: invert charging current
@@ -30,5 +30,5 @@ index c25b2311742c..9bfebca29998 100644
  }
  
 -- 
-2.53.0
+2.55.0
 

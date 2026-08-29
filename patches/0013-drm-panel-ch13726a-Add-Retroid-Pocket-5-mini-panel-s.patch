@@ -1,4 +1,4 @@
-From e6ca8ac3ebe31d25e5039c152a2d21aeeaf9c538 Mon Sep 17 00:00:00 2001
+From c8ffac668e16ed1fc8997a425c49a3a546b1d055 Mon Sep 17 00:00:00 2001
 From: kay-lambdadelta <lambdadeltakay@proton.me>
 Date: Tue, 14 Jul 2026 09:55:08 -0700
 Subject: [PATCH] drm: panel: ch13726a: Add Retroid Pocket 5/mini panel support
@@ -79,5 +79,5 @@ index be76bc825c3f..8a202f067ccd 100644
  };
  MODULE_DEVICE_TABLE(of, ch13726a_of_match);
 -- 
-2.53.0
+2.55.0
 

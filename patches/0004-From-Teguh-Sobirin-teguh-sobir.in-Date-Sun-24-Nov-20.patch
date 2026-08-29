@@ -1,4 +1,4 @@
-From a66c13fc5a8d970a32bc6547504b850b1f80698a Mon Sep 17 00:00:00 2001
+From e0960a541bf116322ffc387488c90f69b2fe14c9 Mon Sep 17 00:00:00 2001
 From: Teguh Sobirin <teguh@sobir.in>
 Date: Sat, 28 Dec 2024 21:23:02 +0100
 Subject: [PATCH] From: Teguh Sobirin <teguh@sobir.in> Date: Sun, 24 Nov 2024
@@ -992,5 +992,5 @@ index 000000000000..bec031dd6871
 +MODULE_DESCRIPTION("Qualcomm SMB5 Charger Driver");
 +MODULE_LICENSE("GPL");
 -- 
-2.53.0
+2.55.0
 

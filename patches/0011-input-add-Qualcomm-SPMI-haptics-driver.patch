@@ -1,4 +1,4 @@
-From b380ac44afa5d5605bac135362c47029a3188a90 Mon Sep 17 00:00:00 2001
+From 7462204fced56902ffaaf33b6d43dec3d79c48a7 Mon Sep 17 00:00:00 2001
 From: Teguh Sobirin <teguh@sobir.in>
 Date: Mon, 25 Nov 2024 02:27:16 +0700
 Subject: [PATCH] input: add Qualcomm SPMI haptics driver
@@ -1088,5 +1088,5 @@ index 000000000000..c25c00480701
 +
 +#endif /* _DT_BINDINGS_QCOM_PMIC_SPMI_HAPTICS_ */
 -- 
-2.53.0
+2.55.0
 

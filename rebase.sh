@@ -16,7 +16,7 @@ for patch in "$INPUT_DIR"/*.patch; do
     filename=$(basename "$patch")
     echo "Processing $filename..."
 
-    if git am -C1 "$patch" >/dev/null 2>&1; then
+    if git am -3 "$patch"; then
         git format-patch -1 HEAD --stdout >"$OUTPUT_DIR/$filename"
     else
         echo "Failed: $filename required manual conflict resolution. Skipping."

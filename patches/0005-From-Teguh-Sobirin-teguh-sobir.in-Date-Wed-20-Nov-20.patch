@@ -1,4 +1,4 @@
-From d4bad1e43fa1e819451a9bd917806d234e12a4d6 Mon Sep 17 00:00:00 2001
+From c280201d665c00e8eccab097075781d7970f8d2f Mon Sep 17 00:00:00 2001
 From: Teguh Sobirin <teguh@sobir.in>
 Date: Sat, 28 Dec 2024 21:26:06 +0100
 Subject: [PATCH] From: Teguh Sobirin <teguh@sobir.in> Date: Wed, 20 Nov 2024
@@ -61,5 +61,5 @@ index faf45f20c670..a1a7035204c3 100644
  				reg = <ADC5_CHG_TEMP>;
  				qcom,pre-scaling = <1 1>;
 -- 
-2.53.0
+2.55.0
 
