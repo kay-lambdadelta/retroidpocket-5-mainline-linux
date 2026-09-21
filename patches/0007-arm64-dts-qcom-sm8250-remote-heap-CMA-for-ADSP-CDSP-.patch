@@ -1,4 +1,4 @@
-From ceceaf864ea14710379a996a74b630b3a3eb02ac Mon Sep 17 00:00:00 2001
+From 8a1029ac146d4a2f927c8c562e49f9d16c196ecb Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Dawid=20Wro=CC=81bel?= <me@dawidwrobel.com>
 Date: Sat, 1 Nov 2025 09:41:42 +0100
 Subject: [PATCH] arm64: dts: qcom: sm8250: remote heap CMA for ADSP, CDSP,
@@ -21,7 +21,7 @@ Signed-off-by: Jiali Chen <chenjiali@radxa.com>
  1 file changed, 11 insertions(+)
 
 diff --git a/arch/arm64/boot/dts/qcom/sm8250.dtsi b/arch/arm64/boot/dts/qcom/sm8250.dtsi
-index 7076720413ab..61f487e546d7 100644
+index 707672041..61f487e54 100644
 --- a/arch/arm64/boot/dts/qcom/sm8250.dtsi
 +++ b/arch/arm64/boot/dts/qcom/sm8250.dtsi
 @@ -863,6 +863,14 @@ cdsp_secure_heap: memory@8bf00000 {

@@ -1,4 +1,4 @@
-From e0960a541bf116322ffc387488c90f69b2fe14c9 Mon Sep 17 00:00:00 2001
+From a855c810ad4e4bc97903efbbc5aba0b7dacc377f Mon Sep 17 00:00:00 2001
 From: Teguh Sobirin <teguh@sobir.in>
 Date: Sat, 28 Dec 2024 21:23:02 +0100
 Subject: [PATCH] From: Teguh Sobirin <teguh@sobir.in> Date: Sun, 24 Nov 2024
@@ -14,7 +14,7 @@ Signed-off-by: Jiali Chen <chenjiali@radxa.com>
  create mode 100644 drivers/power/supply/qcom_pm8150b_charger.c
 
 diff --git a/drivers/power/supply/Kconfig b/drivers/power/supply/Kconfig
-index 6adcfe0c226f..cf6d4fb87add 100644
+index 6adcfe0c2..cf6d4fb87 100644
 --- a/drivers/power/supply/Kconfig
 +++ b/drivers/power/supply/Kconfig
 @@ -1165,6 +1165,15 @@ config CHARGER_QCOM_SMB2
@@ -34,7 +34,7 @@ index 6adcfe0c226f..cf6d4fb87add 100644
  	tristate "Mitsumi MM8013 fuel gauge driver"
  	depends on I2C
 diff --git a/drivers/power/supply/Makefile b/drivers/power/supply/Makefile
-index 36ea7ac90ae0..8d1c3706681f 100644
+index 36ea7ac90..8d1c37066 100644
 --- a/drivers/power/supply/Makefile
 +++ b/drivers/power/supply/Makefile
 @@ -130,6 +130,7 @@ obj-$(CONFIG_CHARGER_SURFACE)	+= surface_charger.o
@@ -47,7 +47,7 @@ index 36ea7ac90ae0..8d1c3706681f 100644
  obj-$(CONFIG_MACSMC_POWER)	+= macsmc-power.o
 diff --git a/drivers/power/supply/qcom_pm8150b_charger.c b/drivers/power/supply/qcom_pm8150b_charger.c
 new file mode 100644
-index 000000000000..bec031dd6871
+index 000000000..bec031dd6
 --- /dev/null
 +++ b/drivers/power/supply/qcom_pm8150b_charger.c
 @@ -0,0 +1,940 @@

@@ -1,4 +1,4 @@
-From 5e4e00e93304246e6ac04db8fbcaefedac835f9b Mon Sep 17 00:00:00 2001
+From 5f61efe7d79aa45d7f27c03f7af887436e46e336 Mon Sep 17 00:00:00 2001
 From: Joel Selvaraj <jo@jsfamily.in>
 Date: Wed, 3 Feb 2021 19:54:45 +0000
 Subject: [PATCH] power: supply: Add driver for Qualcomm PMIC fuel gauge
@@ -38,7 +38,7 @@ Signed-off-by: Jiali Chen <chenjiali@radxa.com>
  create mode 100644 drivers/power/supply/qcom_fg.c
 
 diff --git a/drivers/power/supply/Kconfig b/drivers/power/supply/Kconfig
-index f0ede1cecb6a..6adcfe0c226f 100644
+index f0ede1cec..6adcfe0c2 100644
 --- a/drivers/power/supply/Kconfig
 +++ b/drivers/power/supply/Kconfig
 @@ -1186,4 +1186,12 @@ config MACSMC_POWER
@@ -55,7 +55,7 @@ index f0ede1cecb6a..6adcfe0c226f 100644
 +
  endif # POWER_SUPPLY
 diff --git a/drivers/power/supply/Makefile b/drivers/power/supply/Makefile
-index 31fe4a145929..36ea7ac90ae0 100644
+index 31fe4a145..36ea7ac90 100644
 --- a/drivers/power/supply/Makefile
 +++ b/drivers/power/supply/Makefile
 @@ -131,5 +131,6 @@ obj-$(CONFIG_BATTERY_CHARGER_SURFACE_RT) += surface-rt-ec.o
@@ -67,7 +67,7 @@ index 31fe4a145929..36ea7ac90ae0 100644
  obj-$(CONFIG_CHARGER_MAX77759)	+= max77759_charger.o
 diff --git a/drivers/power/supply/qcom_fg.c b/drivers/power/supply/qcom_fg.c
 new file mode 100644
-index 000000000000..c058d07248fc
+index 000000000..c058d0724
 --- /dev/null
 +++ b/drivers/power/supply/qcom_fg.c
 @@ -0,0 +1,1325 @@

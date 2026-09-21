@@ -1,4 +1,4 @@
-From c280201d665c00e8eccab097075781d7970f8d2f Mon Sep 17 00:00:00 2001
+From 58526d4604d3e2884d6a8dd4366d592038db1533 Mon Sep 17 00:00:00 2001
 From: Teguh Sobirin <teguh@sobir.in>
 Date: Sat, 28 Dec 2024 21:26:06 +0100
 Subject: [PATCH] From: Teguh Sobirin <teguh@sobir.in> Date: Wed, 20 Nov 2024
@@ -11,7 +11,7 @@ Signed-off-by: Jiali Chen <chenjiali@radxa.com>
  1 file changed, 32 insertions(+)
 
 diff --git a/arch/arm64/boot/dts/qcom/pm8150b.dtsi b/arch/arm64/boot/dts/qcom/pm8150b.dtsi
-index faf45f20c670..a1a7035204c3 100644
+index faf45f20c..a1a703520 100644
 --- a/arch/arm64/boot/dts/qcom/pm8150b.dtsi
 +++ b/arch/arm64/boot/dts/qcom/pm8150b.dtsi
 @@ -106,6 +106,26 @@ pm8150b_temp: temp-alarm@2400 {

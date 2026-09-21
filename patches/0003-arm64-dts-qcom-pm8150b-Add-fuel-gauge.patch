@@ -1,4 +1,4 @@
-From 1b9f72e7fe6cb9dc52bfc0ca8f4de01560b721bb Mon Sep 17 00:00:00 2001
+From b5f06027b1c502f14d2bc4706ce789200b48e9e0 Mon Sep 17 00:00:00 2001
 From: map220v <map220v300@gmail.com>
 Date: Wed, 2 Aug 2023 19:17:45 +0300
 Subject: [PATCH] arm64: dts: qcom: pm8150b: Add fuel gauge
@@ -9,7 +9,7 @@ Signed-off-by: Jiali Chen <chenjiali@radxa.com>
  1 file changed, 8 insertions(+)
 
 diff --git a/arch/arm64/boot/dts/qcom/pm8150b.dtsi b/arch/arm64/boot/dts/qcom/pm8150b.dtsi
-index b83be4b6cb1c..faf45f20c670 100644
+index b83be4b6c..faf45f20c 100644
 --- a/arch/arm64/boot/dts/qcom/pm8150b.dtsi
 +++ b/arch/arm64/boot/dts/qcom/pm8150b.dtsi
 @@ -149,6 +149,14 @@ pm8150b_adc_tm: adc-tm@3500 {

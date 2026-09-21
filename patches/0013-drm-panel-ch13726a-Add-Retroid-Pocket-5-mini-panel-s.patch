@@ -1,4 +1,4 @@
-From c8ffac668e16ed1fc8997a425c49a3a546b1d055 Mon Sep 17 00:00:00 2001
+From 8b28b17b25736baad8631b034a6133d72c7887a2 Mon Sep 17 00:00:00 2001
 From: kay-lambdadelta <lambdadeltakay@proton.me>
 Date: Tue, 14 Jul 2026 09:55:08 -0700
 Subject: [PATCH] drm: panel: ch13726a: Add Retroid Pocket 5/mini panel support
@@ -8,7 +8,7 @@ Subject: [PATCH] drm: panel: ch13726a: Add Retroid Pocket 5/mini panel support
  1 file changed, 46 insertions(+)
 
 diff --git a/drivers/gpu/drm/panel/panel-chipwealth-ch13726a.c b/drivers/gpu/drm/panel/panel-chipwealth-ch13726a.c
-index be76bc825c3f..8a202f067ccd 100644
+index be76bc825..8a202f067 100644
 --- a/drivers/gpu/drm/panel/panel-chipwealth-ch13726a.c
 +++ b/drivers/gpu/drm/panel/panel-chipwealth-ch13726a.c
 @@ -151,6 +151,34 @@ static const struct drm_display_mode thor_bottom_modes[] = {

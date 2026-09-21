@@ -1,4 +1,4 @@
-From 16750ff562ee30394fb56a406fe2e6fb5736507f Mon Sep 17 00:00:00 2001
+From 37d9f789c9927282c9e55cda31d53ec64de01b5e Mon Sep 17 00:00:00 2001
 From: map220v <map220v300@gmail.com>
 Date: Wed, 2 Aug 2023 19:15:53 +0300
 Subject: [PATCH] power: qcom_fg: Add initial pm8150b support
@@ -14,7 +14,7 @@ Signed-off-by: Jiali Chen <chenjiali@radxa.com>
  1 file changed, 81 insertions(+), 35 deletions(-)
 
 diff --git a/drivers/power/supply/qcom_fg.c b/drivers/power/supply/qcom_fg.c
-index c058d07248fc..c25b2311742c 100644
+index c058d0724..c25b23117 100644
 --- a/drivers/power/supply/qcom_fg.c
 +++ b/drivers/power/supply/qcom_fg.c
 @@ -27,20 +27,23 @@

@@ -1,4 +1,4 @@
-From 52104c8d3212f80d8944353c0279b289ed61bd9b Mon Sep 17 00:00:00 2001
+From b6fd1d157e2317c9918fe82cb2e41ab68dc11204 Mon Sep 17 00:00:00 2001
 From: Teguh Sobirin <teguh@sobir.in>
 Date: Wed, 20 Nov 2024 23:13:18 +0700
 Subject: [PATCH] Input: driver for AYN Odin2 Gamepad
@@ -13,7 +13,7 @@ Signed-off-by: Teguh Sobirin <teguh@sobir.in>
  create mode 100644 drivers/input/joystick/odin2.c
 
 diff --git a/drivers/input/joystick/Kconfig b/drivers/input/joystick/Kconfig
-index 7755e5b454d2..031b7428068a 100644
+index 7755e5b45..031b74280 100644
 --- a/drivers/input/joystick/Kconfig
 +++ b/drivers/input/joystick/Kconfig
 @@ -344,6 +344,10 @@ config JOYSTICK_MAPLE
@@ -28,7 +28,7 @@ index 7755e5b454d2..031b7428068a 100644
  	tristate "PlayStation 1/2 joypads via SPI interface"
  	depends on SPI
 diff --git a/drivers/input/joystick/Makefile b/drivers/input/joystick/Makefile
-index 9976f596a920..ba7d72514c8b 100644
+index 9976f596a..ba7d72514 100644
 --- a/drivers/input/joystick/Makefile
 +++ b/drivers/input/joystick/Makefile
 @@ -25,6 +25,7 @@ obj-$(CONFIG_JOYSTICK_JOYDUMP)		+= joydump.o
@@ -41,7 +41,7 @@ index 9976f596a920..ba7d72514c8b 100644
  obj-$(CONFIG_JOYSTICK_QWIIC)		+= qwiic-joystick.o
 diff --git a/drivers/input/joystick/odin2.c b/drivers/input/joystick/odin2.c
 new file mode 100644
-index 000000000000..63a32175b441
+index 000000000..63a32175b
 --- /dev/null
 +++ b/drivers/input/joystick/odin2.c
 @@ -0,0 +1,313 @@

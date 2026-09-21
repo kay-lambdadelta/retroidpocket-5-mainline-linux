@@ -1,4 +1,4 @@
-From b6f31a13e86646b8817fa76ef25eebb0d22cc66c Mon Sep 17 00:00:00 2001
+From 1fc9bf65088b32fd4e5982d65e1aac7c212a2aa1 Mon Sep 17 00:00:00 2001
 From: Teguh Sobirin <teguh@sobir.in>
 Date: Mon, 25 Nov 2024 02:17:47 +0700
 Subject: [PATCH] arm64: dts: qcom: pm8150b: introduce spmi haptics
@@ -10,7 +10,7 @@ Signed-off-by: Teguh Sobirin <teguh@sobir.in>
  1 file changed, 16 insertions(+)
 
 diff --git a/arch/arm64/boot/dts/qcom/pm8150b.dtsi b/arch/arm64/boot/dts/qcom/pm8150b.dtsi
-index a1a7035204c3..f153bc972fb2 100644
+index a1a703520..f153bc972 100644
 --- a/arch/arm64/boot/dts/qcom/pm8150b.dtsi
 +++ b/arch/arm64/boot/dts/qcom/pm8150b.dtsi
 @@ -5,6 +5,7 @@

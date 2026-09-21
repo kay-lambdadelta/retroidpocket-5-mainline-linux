@@ -1,4 +1,4 @@
-From a3a22fc962db64c198f74c9d6dff6a37035758a9 Mon Sep 17 00:00:00 2001
+From 3b34c5db4fa29db3de42366170b1c8f7ca2835bd Mon Sep 17 00:00:00 2001
 From: Teguh Sobirin <teguh@sobir.in>
 Date: Thu, 21 Nov 2024 00:16:42 +0700
 Subject: [PATCH] leds: Add driver for HEROIC HTR3212 Signed-off-by: Teguh
@@ -12,7 +12,7 @@ Subject: [PATCH] leds: Add driver for HEROIC HTR3212 Signed-off-by: Teguh
  create mode 100644 drivers/leds/leds-htr3212.c
 
 diff --git a/drivers/leds/Kconfig b/drivers/leds/Kconfig
-index f4a0a3c8c870..95dc7f9f21f4 100644
+index f4a0a3c8c..95dc7f9f2 100644
 --- a/drivers/leds/Kconfig
 +++ b/drivers/leds/Kconfig
 @@ -227,6 +227,16 @@ config LEDS_EL15203000
@@ -33,7 +33,7 @@ index f4a0a3c8c870..95dc7f9f21f4 100644
  	tristate "LED support for CZ.NIC's Turris Omnia"
  	depends on LEDS_CLASS_MULTICOLOR
 diff --git a/drivers/leds/Makefile b/drivers/leds/Makefile
-index 7db3768912ca..6bd474d927c8 100644
+index 7db376891..6bd474d92 100644
 --- a/drivers/leds/Makefile
 +++ b/drivers/leds/Makefile
 @@ -34,6 +34,7 @@ obj-$(CONFIG_LEDS_DA9052)		+= leds-da9052.o
@@ -46,7 +46,7 @@ index 7db3768912ca..6bd474d927c8 100644
  obj-$(CONFIG_LEDS_IPAQ_MICRO)		+= leds-ipaq-micro.o
 diff --git a/drivers/leds/leds-htr3212.c b/drivers/leds/leds-htr3212.c
 new file mode 100644
-index 000000000000..e9367c4aad04
+index 000000000..e9367c4aa
 --- /dev/null
 +++ b/drivers/leds/leds-htr3212.c
 @@ -0,0 +1,298 @@

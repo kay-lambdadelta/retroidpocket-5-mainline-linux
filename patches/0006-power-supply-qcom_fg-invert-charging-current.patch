@@ -1,4 +1,4 @@
-From caa23d2960d702531d1507f37aa12194c77f4971 Mon Sep 17 00:00:00 2001
+From cd051c3e11baa3d8f347d92fda5655c528ee53a6 Mon Sep 17 00:00:00 2001
 From: Casey Connolly <casey.connolly@linaro.org>
 Date: Fri, 20 Jun 2025 14:38:01 +0200
 Subject: [PATCH] power: supply: qcom_fg: invert charging current
@@ -13,7 +13,7 @@ Signed-off-by: Jiali Chen <chenjiali@radxa.com>
  1 file changed, 6 insertions(+)
 
 diff --git a/drivers/power/supply/qcom_fg.c b/drivers/power/supply/qcom_fg.c
-index c25b2311742c..9bfebca29998 100644
+index c25b23117..9bfebca29 100644
 --- a/drivers/power/supply/qcom_fg.c
 +++ b/drivers/power/supply/qcom_fg.c
 @@ -722,6 +722,12 @@ static int qcom_fg_gen3_get_current(struct qcom_fg_chip *chip, int *val)
